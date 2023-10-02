@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1la . -type d -empty -o -type f -empty
+ls -1lafind . -name "*.gif" -type f -printf  "%f\n" | rev |cut -d. -f2- | rev | LC_ALL=c sort -f

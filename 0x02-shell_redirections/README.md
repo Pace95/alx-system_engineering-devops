@@ -1,0 +1,1 @@
+the directories of shell
